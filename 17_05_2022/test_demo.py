@@ -8,5 +8,6 @@ def test_case1(request,setup):
     print("tesing  case 1")
     search_box=driver.find_element(By.XPATH,"//input[@title='Search']")
     time.sleep(3)
+    print("haaiii")
     search_box.send_keys("haaiii")
 
